@@ -1,0 +1,18 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Nong Marvel Hub", "Ocean")
+
+local Tab = Window:NewTab("All Script Blox Fruit")
+
+local Section = Tab:NewSection("Script")
+
+Section:NewButton("Evil Hub", "Fuck You", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Natthawat69/EvilHub-FREE/main/Script.lua"))()
+end)
+
+Section:NewButton("Mhee Hub", "Fuck You", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
+end)
+
+Section:NewButton("Mammoz Hub", "Fuck You", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/toeydeklnw/HUB-obfuscator/main/mammoz.lua"))()
+end)
